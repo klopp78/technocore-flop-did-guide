@@ -346,6 +346,15 @@ def print_room_messages() -> None:
 def generate_x_template() -> None:
     contribution = latest_record("contribution")
     signed = latest_record("signed_message")
+    if not contribution:
+        for record in reversed(load_evidence()["records"]):
+            text = str(record.get("text", ""))
+            if record.get("type") == "signed_message" and "https://" in text:
+                parts = text.split()
+                url = next((part.rstrip(".,)") for part in parts if part.startswith("https://")), "")
+                contribution = {"url": url, "room": record.get("room"), "seq": record.get("seq"), "did": record.get("did")}
+                signed = record
+                break
     did_record = latest_record("did_checked") or latest_record("did_created")
     did = (contribution or signed or did_record or {}).get("did", "YOUR_PUBLIC_DID")
     url = (contribution or {}).get("url", "PUBLIC_CONTRIBUTION_URL")
