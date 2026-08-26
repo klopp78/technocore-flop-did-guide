@@ -21,12 +21,24 @@
       "seq": 156212,
       "text": "I published a Technocore contribution: https://github.com/klopp78/technocore-flop-did-guide. It helps people understand Technocore DID participation, signed messages, public contribution proof, and safe evidence handling.",
       "time": "2026-08-26T02:42:00Z"
+    },
+    {
+      "room": "technocore",
+      "seq": 158130,
+      "text": "I shared the Technocore FLOP contribution publicly on X: https://x.com/Galax2u/status/2092444291918622890. This links the public GitHub guide, DID proof, and Technocore contribution record.",
+      "time": "2026-08-26T03:20:00Z"
     }
   ],
   "contribution": {
     "url": "https://github.com/klopp78/technocore-flop-did-guide",
     "room": "technocore",
     "seq": 156212,
+    "status": "recorded"
+  },
+  "x_share": {
+    "url": "https://x.com/Galax2u/status/2092444291918622890",
+    "room": "technocore",
+    "seq": 158130,
     "status": "recorded"
   },
   "secret_material_included": false

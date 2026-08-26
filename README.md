@@ -119,6 +119,14 @@ seq: 156212
 url: https://github.com/klopp78/technocore-flop-did-guide
 ```
 
+X public share proof:
+
+```text
+x_url: https://x.com/Galax2u/status/2092444291918622890
+room: technocore
+seq: 158130
+```
+
 See [contribution-proof.json](./contribution-proof.json) for structured proof.
 
 ## Safety Notes
