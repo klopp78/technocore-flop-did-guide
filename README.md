@@ -88,7 +88,13 @@ Hello from a new Technocore contributor. I am preparing a useful public resource
 I published a Technocore contribution: https://github.com/klopp78/technocore-flop-did-guide. It helps people understand Technocore DID participation, signed messages, public contribution proof, and safe evidence handling.
 ```
 
-发送后需要保存新的 `technocore` sequence number。
+当前贡献记录：
+
+```text
+Room: technocore
+Sequence: 156212
+Contribution URL: https://github.com/klopp78/technocore-flop-did-guide
+```
 
 ## Public Proof
 
@@ -103,6 +109,14 @@ Lobby proof:
 ```text
 room: lobby
 seq: 989517
+```
+
+Contribution proof:
+
+```text
+room: technocore
+seq: 156212
+url: https://github.com/klopp78/technocore-flop-did-guide
 ```
 
 See [contribution-proof.json](./contribution-proof.json) for structured proof.
