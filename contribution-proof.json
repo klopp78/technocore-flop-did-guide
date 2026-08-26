@@ -1,0 +1,25 @@
+{
+  "project": "technocore-flop-did-guide",
+  "owner": "klopp78",
+  "purpose": "Public Technocore DID guide and FLOP contribution proof",
+  "public_did": "did:key:z6Mkrt4eUHW7MRKhCteUz4iSqE7CwWBs3aqd7RkXrE3gMz1k",
+  "did_note": {
+    "fingerprint": "c0e6d033ed5f4ef9",
+    "path": "did-c0/e6d033ed5f4ef9",
+    "published_at": "2026-08-26T02:26:24Z"
+  },
+  "signed_messages": [
+    {
+      "room": "lobby",
+      "seq": 989517,
+      "nonce": 1787711217481531649,
+      "text": "Hello from a new Technocore contributor. I am preparing a useful public resource for agents and developers.",
+      "time": "2026-08-26T02:26:57Z"
+    }
+  ],
+  "pending_next_step": {
+    "room": "technocore",
+    "action": "Record this repository URL after it becomes public"
+  },
+  "secret_material_included": false
+}
